@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+
+    <style>
+        * {
+            background-color: whitesmoke;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,6 +24,9 @@
 
         <label for="complemento">Complemento:</label>
         <input type="text" name="nome" placeholder="Complemento" id="complemento">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="nome" placeholder="Telefone" id="telefone">
 
         <!-- Escolha uma borda -->
         <hr />
@@ -68,7 +77,8 @@
             <option value="adicionais_oregano">Orégano</option>
             <option value="adicionais_cebola">Cebola</option>
         </select>
-        
+        <hr/>
+        <input type="submit" value="Enviar">        
 
 
     </form>
