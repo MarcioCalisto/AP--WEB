@@ -1,0 +1,35 @@
+/* body {
+    margin: 2%;
+} */
+
+header.topo-site {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 55px;
+}
+
+main.principal {
+    width: 100%;
+    height: 260px;
+    background-color: wheat;
+    padding-top: 2%;
+}
+
+section.setor1 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 2%;
+}
+
+section.setor2 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+footer.roda-pe {
+    width: 100%;
+    height: 55px;
+    background-color: cornflowerblue;
+}

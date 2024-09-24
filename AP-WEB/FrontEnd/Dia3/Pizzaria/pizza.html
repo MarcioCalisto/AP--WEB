@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        * {
+            margin: 10;
+            padding: 20;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        header {
+            border-style: groove;
+            border-radius: 10px;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body style="background-color: black; height: 100vh;">
+    <header style="background-color: cadetblue;">
+        <form style="text-align: center;">
+            <h3 style="border-style: ridge; border-radius: 10px;">Seus dados e endereço de entrega:</h3>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Seu nome" id="nome">
+            <!-- Trocar por endereço -->
+            <label for="cep">CEP:</label>
+            <input type="text" name="nome" placeholder="Cep" id="cep">
+
+            <label for="complemento">Complemento:</label>
+            <input type="text" name="nome" placeholder="Complemento" id="complemento">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="nome" placeholder="Telefone" id="telefone">
+
+            <!-- Escolha uma borda -->
+            <hr />
+            <h4>Vai ter borda?</h4>
+            <label for="Pizza_sim">Sim</label>
+            <input type="radio" value="sim" name="valid_borda" id="Pizza_sim">
+
+            <label for="Pizza_nao">Não</label>
+            <input type="radio" value="nao" name="valid_borda" id="Pizza_nao">
+
+            <hr />
+
+            <!-- Sabor da borda -->
+            <h4>Sabor da borda?</h4>
+
+            <label for="sabor_borda_chedder">Chedder</label>
+            <input type="checkbox" value="borda_chedder" name="borda_sabor" id="sabor_borda_chedder">
+
+            <label for="sabor_borda_chocolate">Chocolate</label>
+            <input type="checkbox" value="borda_chocolate" name="borda_sabor" id="sabor_borda_chocolate">
+
+            <label for="sabor_borda_catupiry">Catupiry</label>
+            <input type="checkbox" value="borda_catupiry" name="borda_sabor" id="sabor_borda_catupiry">
+
+            <hr />
+
+            <!-- Sabor da pizza -->
+            <h4>Sabor da Pizza?</h4>
+
+            <label for="sabor_pizza_nordestina">Nordestina</label>
+            <input type="checkbox" value="pizza_nordestina" name="pizza_sabor" id="sabor_pizza_nordestina">
+
+            <label for="sabor_pizza_milho">Milho</label>
+            <input type="checkbox" value="pizza_milho" name="pizza_sabor" id="sabor_pizza_milho">
+
+            <label for="sabor_pizza_frango">Frango</label>
+            <input type="checkbox" value="pizza_frango" name="pizza_sabor" id="sabor_pizza_frango">
+
+            <hr />
+            <!-- Adicionais -->
+            <h4>Adicionais:</h4>
+            <label for="adicionais"></label>
+            <select name="adicionais" id="adicionais">
+                <option value="adicionais_queijo">Queijo</option>
+                <option value="adicionais_tomate">Tomate</option>
+                <option value="adicionais_bacon">Bacon</option>
+                <option value="adicionais_milho">Milho</option>
+                <option value="adicionais_oregano">Orégano</option>
+                <option value="adicionais_cebola">Cebola</option>
+            </select>
+            <br>
+            <br />
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+
+</html>
