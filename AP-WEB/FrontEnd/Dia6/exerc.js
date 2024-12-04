@@ -11,5 +11,3 @@ if (comprimento_1 != comprimento_2 || comprimento_2 != comprimento_3 || comprime
 } else {
     console.log("O triângulo é Escaleno")
 }
-
-
